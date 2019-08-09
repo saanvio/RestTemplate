@@ -23,9 +23,9 @@ public class ApplicationResponse implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private Integer statusCode;
 	private String message;
-//	@JsonInclude(Include.NON_NULL)
-//	private EmployeeDto employeeDto;
-//	@JsonInclude(Include.NON_NULL)
-//	private List<EmployeeDto> employeeLists;
+	@JsonInclude(Include.NON_NULL)
+	private EmployeeDto employeeDto;
+	@JsonInclude(Include.NON_NULL)
+	private List<EmployeeDto> employeeLists;
 
 }
